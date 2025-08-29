@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { MapPin, Phone, Mail, Instagram, Twitter, Facebook, Youtube } from "lucide-react";
-import nocLogo from "@/assets/noc-dubaija-logo.png";
+import nocLogo from "@/assets/noc-dubaija-logo-transparent.png";
 
 const Footer = () => {
   const socialLinks = [
