@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Calendar, Star, MapPin } from "lucide-react";
 import dubaiSkyline from "@/assets/dubai-skyline-night.jpg";
-import nocLogo from "@/assets/noc-dubaija-logo.png";
+import nocLogo from "@/assets/noc-dubaija-logo-alt.png";
 
 const Hero = () => {
   return (
