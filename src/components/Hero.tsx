@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Calendar, Star, MapPin } from "lucide-react";
 import dubaiSkyline from "@/assets/dubai-skyline-night.jpg";
-import nocLogo from "@/assets/noc-dubaija-logo-transparent.png";
+import nocLogo from "@/assets/noc-dubaija-logo-text-only.png";
 
 const Hero = () => {
   return (
@@ -21,7 +21,7 @@ const Hero = () => {
       <nav className="absolute top-0 left-0 right-0 z-50 p-6">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <img src={nocLogo} alt="Noć Dubaija" className="h-28 w-auto animate-float drop-shadow-2xl" />
+            <img src={nocLogo} alt="Noć Dubaija" className="h-28 w-auto animate-float" />
           </div>
           <div className="hidden md:flex items-center space-x-8 glass rounded-full px-6 py-3">
             <a href="#vip" className="text-foreground hover:text-primary transition-luxury">VIP Experience</a>
