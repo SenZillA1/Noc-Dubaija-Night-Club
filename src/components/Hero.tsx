@@ -21,7 +21,7 @@ const Hero = () => {
       <nav className="absolute top-0 left-0 right-0 z-50 p-6">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <img src={nocLogo} alt="Noć Dubaija" className="h-12 w-auto animate-float" />
+            <img src={nocLogo} alt="Noć Dubaija" className="h-20 w-auto animate-float" />
           </div>
           <div className="hidden md:flex items-center space-x-8 glass rounded-full px-6 py-3">
             <a href="#vip" className="text-foreground hover:text-primary transition-luxury">VIP Experience</a>
